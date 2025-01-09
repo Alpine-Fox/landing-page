@@ -15,6 +15,7 @@ ul {
 body {
     height: 100vh;
 
+    /* Flexbox */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,15 +23,23 @@ body {
 
 .header {
     background-color: rgb(143, 143, 143);
+
+    /* Flexbox */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    padding: 12px;
 }
 
-.links-left {
+/* When trying to make nav bars, make sure "flex-direction: row" for the actual nav links lol */
+.left-links {
+    /* Box Model */
+
+
+    /* Flexbox */
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
 }
 
 .footer {
@@ -38,8 +47,11 @@ body {
 }
 
     #footer-text {
+        /* Box Model */
+        padding: 12px;
+
+        /* Flexbox */
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
     }
