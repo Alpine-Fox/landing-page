@@ -5,7 +5,7 @@ Basic website that has links to socials, projects, VRChat commissions, and whate
 ## The Basics
 - [x] Basic HTML structure
 - [x] Basic CSS/Flexbox
-## The Basics
+## Making The Site Functional
 - [x] Add-in website background
 - [ ] Update header's nav links (Socials, Projects, VRChat, Photograpghy, etc.)
 - [ ] Complete "credits.html" (for background, and recourses to learn web design)
