@@ -26,7 +26,7 @@ body {
 
     /* Flexbox */
     display: flex;
-    padding: 12px;
+    padding: 10px;
 }
 
 /* When trying to make nav bars, make sure "flex-direction: row" for the actual nav links lol */
@@ -46,9 +46,9 @@ body {
     background-color:  rgb(143, 143, 143);
 }
 
-    #footer-text {
+    .footer-text {
         /* Box Model */
-        padding: 12px;
+        padding: 10px;
 
         /* Flexbox */
         display: flex;
