@@ -4,6 +4,7 @@
 * {
     font-family: Open Sans, Arial, Helvetica, sans-serif;
     margin: 0;
+    color: #FEFDFC;
 }
 
 ul {
@@ -23,7 +24,8 @@ body {
 }
 
 .header {
-    background-color: rgb(143, 143, 143);
+    background-color: rgb(27, 27, 27);
+    font-size: 18px;
 
     /* Flexbox */
     display: flex;
@@ -44,7 +46,8 @@ body {
 }
 
 .footer {
-    background-color:  rgb(143, 143, 143);
+    background-color: rgb(27, 27, 27);
+    font-size: 18px;
 }
 
     .footer-text {
