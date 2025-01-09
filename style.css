@@ -1,0 +1,45 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ------------- */
+
+body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: rgb(143, 143, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.links-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color:  rgb(143, 143, 143);
+}
+
+    #footer-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
