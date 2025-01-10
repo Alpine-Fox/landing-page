@@ -169,4 +169,39 @@ img {
     .socials-button {
         color: #05140C;
         font-size: 32px;
+        border-radius: 18px;
+        border-style: none;
+        outline: 0px;
+        padding: 16px;
+        color: white;
     }
+
+        .socials-button.bluesky {
+            background-color: #1180ff;
+            box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+        }
+
+        .socials-button.telegram {
+            background-color: #36ace0;
+            box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+        }
+
+        .socials-button.twitch {
+            background-color: #9146ff;
+            box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+        }
+
+        .socials-button.twitter {
+            background-color: #030303;
+            box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+        }
+
+        .socials-button.vrchat {
+            background-color: #2e2e2e;
+            box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+        }
+
+        .socials-button.youtube {
+            background-color: #ff0000;
+            box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+        }
