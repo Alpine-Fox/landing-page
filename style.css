@@ -78,6 +78,16 @@ body {
     justify-content: space-between;
 }
 
+img {
+    filter: drop-shadow 3px 3px 2px #00000080;
+    -webkit-filter: drop-shadow(3px 3px 2px #00000080);
+    filter: drop-shadow(3px 3px px #00000080);
+}
+
+#peek {
+    max-height: 512px;
+}
+
 .header {
     background-color: #05140c;
     font-size: 18px;
@@ -114,3 +124,18 @@ body {
         justify-content: center;
         align-items: center;
     }
+
+.main-content {
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peek-sticker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
