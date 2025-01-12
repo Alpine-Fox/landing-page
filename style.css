@@ -93,7 +93,7 @@ img {
 }
 
 #peek {
-    max-height: 512px;
+    max-height: 300px;
 }
 
 .header {
@@ -122,6 +122,8 @@ img {
 .footer {
     background-color: #05140c;
     font-size: 18px;
+
+    flex-shrink: 0;
 }
 
     .footer-text {
@@ -132,6 +134,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-shrink: 0;
     }
 
 .peek-sticker {
