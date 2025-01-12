@@ -182,37 +182,59 @@ img {
         outline: 0px;
         padding: 16px;
         color: white;
+        font-weight: 500;
+
+        display: flex;
+        align-items: center;
+    justify-content: center;
     }
 
         .socials-button.bluesky {
-            background-color: #1180ff;
+            background-color: #1074e6;
             box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
         }
 
         .socials-button.telegram {
-            background-color: #36ace0;
+            background-color: #3098c5;
             box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
         }
 
         .socials-button.twitch {
-            background-color: #9146ff;
+            background-color: #6e35c4;
             box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
         }
 
         .socials-button.twitter {
-            background-color: #030303;
+            background-color: rgb(29, 29, 29);
             box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
         }
 
         .socials-button.vrchat {
-            background-color: #2e2e2e;
+            background-color: #3d3d3d;
             box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
         }
 
         .socials-button.youtube {
-            background-color: #ff0000;
+            background-color: #bd0000;
             box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
         }
+
+.social-img {
+    height: 50px;
+    margin-right: 16px;
+}
+
+    .social-img.bluesky {
+        height: 60px;
+    }
+
+    .social-img.twitter {
+        height: 40px;
+    }
+
+    .social-img.youtube {
+        height: 60px;
+    }
 
 /* Photography CSS */
 
